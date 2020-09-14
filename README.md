@@ -1,2 +1,2 @@
-# demo-provider-app
-demo-provider-app
+# demo-sp-provider-app
+demo-sp-provider-app
