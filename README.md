@@ -1,2 +1,2 @@
-# demo-android
-demo-android
+# demo-provider-app
+demo-provider-app
