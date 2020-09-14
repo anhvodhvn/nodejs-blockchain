@@ -1,0 +1,21 @@
+# dependencies
+/test/node_modules/
+# versions
+/test/package-lock.json
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pubxml.user
+#####
+
+# visual studio
+.vs
+.vscode
+bin/
+obj/
+Debug/
+Release/
