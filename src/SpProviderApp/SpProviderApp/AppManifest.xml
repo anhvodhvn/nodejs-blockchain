@@ -3,15 +3,24 @@
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="SpProviderApp"
      ProductID="{04af36e0-ef9f-4c2b-83b7-5b6538ade9f7}"
-     Version="1.0.0.0"
+     Version="1.0.0.1"
      SharePointMinVersion="16.0.0.0"
 >
   <Properties>
     <Title>SpProviderApp</Title>
     <StartPage>~remoteAppUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <SupportedLocales>
+      <SupportedLocale CultureName="en-US" />
+    </SupportedLocales>
   </Properties>
 
   <AppPrincipal>
     <RemoteWebApplication ClientId="*" />
   </AppPrincipal>
+  <AppPermissionRequests AllowAppOnlyPolicy="true" >
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web" Right="Write" />
+  </AppPermissionRequests>
+  <RemoteEndpoints>
+    <RemoteEndpoint Url="https://sp-provider.azurewebsites.net/" />
+  </RemoteEndpoints>
 </App>

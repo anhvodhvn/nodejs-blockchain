@@ -132,7 +132,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Pages\cwpDocument.aspx" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Properties\PublishProfiles\sp-provider - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\sp-provider - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\sp-provider - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -143,6 +147,13 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\cwpDocument.aspx.cs">
+      <DependentUpon>cwpDocument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\cwpDocument.aspx.designer.cs">
+      <DependentUpon>cwpDocument.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

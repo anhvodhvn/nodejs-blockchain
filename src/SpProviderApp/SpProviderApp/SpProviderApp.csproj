@@ -21,6 +21,7 @@
     <WorkflowPartId>{e4e9f893-0b3d-4384-9683-16db7e61bc1f}</WorkflowPartId>
     <CspkgPartId>{677a50d9-a85a-4303-bbad-3098d93cf3c3}</CspkgPartId>
     <SqlPackagePartId>{2e0c825e-e2a2-41fe-b1c9-cd38fa14d7c8}</SqlPackagePartId>
+    <ActivePublishProfile>sp-provider - Web Deploy</ActivePublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,6 +46,9 @@
     <Content Include="AppIcon.png">
       <OpcRelationship>manifest-icon</OpcRelationship>
     </Content>
+    <Content Include="cwpDocument\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <AppManifestFile Include="AppManifest.xml">
@@ -61,6 +65,21 @@
       <RoleName>SpProviderAppWeb</RoleName>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cwpDocument\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1fc8e86b-9fc0-4477-b10a-cbe675055d57}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.resx">
+      <OpcRelationship>content-defaultresource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.en-US.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
