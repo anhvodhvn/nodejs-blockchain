@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        Hello World SharePoint
+        Hello World SharePoint Online
     </div>
     </form>
 </body>
