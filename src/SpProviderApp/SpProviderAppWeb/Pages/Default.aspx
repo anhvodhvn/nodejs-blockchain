@@ -8,9 +8,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        Hello World SharePoint Online
-    </div>
+        <div>
+            <h1>Hello World SharePoint Online</h1>
+            <p>
+                Welcome to SharePoint Provider Web App
+            </p>
+        </div>
     </form>
 </body>
 </html>
