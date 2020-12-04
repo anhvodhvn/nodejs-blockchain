@@ -3,7 +3,7 @@
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="SpProviderApp"
      ProductID="{04af36e0-ef9f-4c2b-83b7-5b6538ade9f7}"
-     Version="1.0.0.3"
+     Version="1.0.0.4"
      SharePointMinVersion="16.0.0.0"
 >
   <Properties>
