@@ -133,6 +133,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Properties\PublishProfiles\demo-sharepoint - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
