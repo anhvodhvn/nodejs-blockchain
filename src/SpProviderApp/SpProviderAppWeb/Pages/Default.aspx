@@ -11,7 +11,7 @@
         <div>
             <h1>Welcome to SharePoint Online</h1>
             <p>
-                This is SharePoint Provider Web Application Copy Right @2020
+                This is SharePoint Provider Web Application Copy Right version 2020
             </p>
         </div>
     </form>
