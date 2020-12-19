@@ -1,2 +1,2 @@
-# sp-provider-app
-sharepoint provider app
+# sp-app-provider
+sharepoint app provider
